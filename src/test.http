@@ -1,0 +1,25 @@
+
+###
+## playground0
+POST localhost:3111/create-notification
+Content-Type: application/json
+
+{
+  "scheduledAt": "5 sec later" ,
+  "msg": "微波爐"
+}
+
+
+###
+## health
+GET localhost:3111/health
+
+
+###
+## gen vscod extention
+POST localhost:3111/backupOp/getVsCodeExt
+
+
+###
+## update updateDotFile
+POST localhost:3111/backupOp/copyDotFile
